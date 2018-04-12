@@ -20,3 +20,23 @@
 .ListItem:active {
     background-color: #ccc;
 }
+
+.fade-enter {
+  opacity: 1;
+}
+
+.fade-enter-active {
+  opacity: 0;
+  background-color: green;
+  transition: all 0.3s ease-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  background-color: red;
+  transition: all 0.3s ease-out;
+}
