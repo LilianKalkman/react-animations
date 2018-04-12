@@ -23,20 +23,22 @@
 
 .fade-enter {
   opacity: 1;
+  background-color: green;
 }
 
 .fade-enter-active {
   opacity: 0;
-  background-color: green;
-  transition: all 0.3s ease-out;
+  background-color: rgb(185, 215, 186);
+  transition: all 1s ease-out;
 }
 
 .fade-exit {
   opacity: 1;
+  background-color: red;
 }
 
 .fade-exit-active {
   opacity: 0;
-  background-color: red;
-  transition: all 0.3s ease-out;
+  background-color: pink;
+  transition: all 1s ease-out;
 }

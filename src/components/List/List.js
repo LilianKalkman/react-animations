@@ -30,7 +30,7 @@ class List extends Component {
           <CSSTransition
               key={index}
               classNames="fade"
-              timeout={350}>
+              timeout={1000}>
             <li
                 className="ListItem"
                 onClick={() => this.removeItemHandler(index)}>{item}</li>
