@@ -24,21 +24,25 @@
 .fade-enter {
   opacity: 1;
   background-color: green;
+  transform: translateX(-100%);
 }
 
 .fade-enter-active {
   opacity: 0;
   background-color: rgb(185, 215, 186);
+  transform: translateX(0);
   transition: all 1s ease-out;
 }
 
 .fade-exit {
   opacity: 1;
   background-color: red;
+  transform: translateX(0);
 }
 
 .fade-exit-active {
   opacity: 0;
   background-color: pink;
+  transform: translateX(100%);
   transition: all 1s ease-out;
 }
